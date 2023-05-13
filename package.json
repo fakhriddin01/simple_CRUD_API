@@ -1,0 +1,32 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start:multi": "tsc && node build/index.js",
+    "start:prod": "tsc && node build/index.js",
+    "start:dev": "npx nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "@types/uuid": "^9.0.1",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "models/*.json"
+    ]
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "uuid": "^9.0.0"
+  }
+}
