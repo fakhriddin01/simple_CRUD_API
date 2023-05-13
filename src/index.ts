@@ -32,9 +32,9 @@ if (cluster.isMaster) {
       cluster.fork();
     });
   
-  } else {
+} else {    
     startHttp();
-  }
+}
 
 
 function startHttp(){
@@ -146,7 +146,7 @@ function startHttp(){
     })
 
     server.listen(PORT, ()=>{
-        console.log('server running on port 8000!');
+        console.log(`server running on port ${PORT}`);
     })
 }
 
