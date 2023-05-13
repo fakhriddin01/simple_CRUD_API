@@ -1,1 +1,8 @@
-[{"id":"50f105b4-cfb1-41b0-8670-8d188065a44b","username":"user1","age":12,"hobbies":["football"]},{"id":"d433dd7c-4af6-4d13-baf2-13a0b8532242","username":"user1","age":12,"hobbies":["football"]},{"id":"f0fe93e6-be4b-42de-93ae-9f44d7cdb3be","username":"user1","age":12,"hobbies":["football"]},{"id":"ab2a1759-b984-43fc-873f-e03360af4339","username":"user1","age":12,"hobbies":["football"]},{"id":"bd0f9872-90a0-4746-bef6-3bdb6eef14f7","username":"user1","age":12,"hobbies":["football"]},{"id":"312c6301-4883-47ce-8dca-83edc7bc8334","username":"user1","age":12,"hobbies":["football"]},{"id":"2dd1a911-9bab-4e1f-a259-d995cd146fbb","username":"user1","age":12,"hobbies":["football"]}]
+[
+  {
+    "id": "50f105b4-cfb1-41b0-8670-8d188065a44b",
+    "username": "user1",
+    "age": 12,
+    "hobbies": ["football"]
+  }
+]
